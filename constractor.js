@@ -59,8 +59,8 @@ class Rental {
   }
 }
 
-const myCar = new Car('Toyota', 'Camry', 2020, true);
-const myRental = new Rental(myCar, 'John Doe', new Date('2023-05-01'), new Date('2023-05-05'));
+const myCar = new Car('subaru', 'Forester', 2020, true);
+const myRental = new Rental(myCar, 'Ruth Awino', new Date('2023-05-01'), new Date('2023-05-05'));
 console.log(myRental.calculateRentalDuration()); // output: 4
 
 
